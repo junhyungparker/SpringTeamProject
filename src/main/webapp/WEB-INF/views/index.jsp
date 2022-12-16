@@ -7,8 +7,7 @@
 <title>HOME</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>The time on the server is ${serverTime}.</p>
-    <p><a href="board/list">게시판으로 이동</a></p>
+    <h1>Welcome to your Playlist!</h1>
+    <p><a href="board/list">Next</a></p>
 </body>
 </html>
