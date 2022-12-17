@@ -29,7 +29,7 @@
         </select></td></tr>
         <tr><td>Lyrics:</td><td><textarea cols="50" rows="5" name="lyric"></textarea></td></tr>
         <tr><td>Duration:</td><td><input type="text" name="duration"/></td></tr>
-        <tr><td>Status:</td><td>public:<input type="radio" name="status" value="public"/>
+        <tr><td>Status:</td><td>public:<input type="radio" name="status" value="public" />
             private:<input type="radio" name="status" value="private"/></td></tr>
     </table>
     <button type="button" onclick="location.href='list'">View List</button>
