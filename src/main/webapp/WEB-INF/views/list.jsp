@@ -37,6 +37,7 @@
 </head>
 <body>
 <h1>Your Playlist</h1>
+Hello! <a href="../login/logout">logout</a><br/>
 <table id="list" width="90%">
     <tr>
         <th>Id</th>

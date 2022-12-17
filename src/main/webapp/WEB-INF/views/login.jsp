@@ -14,10 +14,10 @@
 <div style='width:100%;text-align:center;padding-top:100px'>
     <img src='https://www.pngkit.com/png/detail/0-4148_play-png-free-download-play-button-icon-png.png'height="250">
     <form method="post" action="loginOk">
-    <div> <label>User ID: </label> <input type='text' name='userid'/></div>
-    <div> <label>Password: </label>
-        <input type='password' name='password'/>
-    </div><button type='submit'>login</button>
+        <div> <label>User ID: </label> <input type='text' name='userid'/></div>
+        <div> <label>Password: </label>
+            <input type='password' name='password'/>
+        </div><button type='submit'>login</button>
     </form>
 </div>
 </body>

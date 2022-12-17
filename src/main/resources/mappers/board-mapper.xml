@@ -3,13 +3,13 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="Board">
     <insert id="insertBoard">
-        insert into PLAYLIST (title, artist, album, reldate, genre, lyric, duration, status)
+        insert into PLAYLIST (title, artist, album, img, reldate, genre, lyric, duration, status)
         values
-            (#{title}, #{artist}, #{album} , #{reldate} , #{genre} , #{lyric}, #{duration}, #{status})
+            (#{title}, #{artist}, #{album} , #{img}, #{reldate} , #{genre} , #{lyric}, #{duration}, #{status})
     </insert>
     <update id="updateBoard">
         update PLAYLIST
-        set title=#{title}, artist=#{artist}, album=#{album}, reldate=#{reldate}, genre=#{genre}, lyric=#{lyric}, duration=#{duration}, status=#{status}
+        set title=#{title}, artist=#{artist}, album=#{album}, img=#{img}, reldate=#{reldate}, genre=#{genre}, lyric=#{lyric}, duration=#{duration}, status=#{status}
         where seq=#{seq}
     </update>
     <delete id="deleteBoard">

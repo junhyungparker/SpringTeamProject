@@ -8,12 +8,12 @@ public class BoardVO {
 	private String artist;
 	private String album;
 	private String img;
-	private Date reldate;
+	private String reldate;
 	private String genre;
 	private String lyric;
 	private String duration;
 	private Date regdate;
-	private boolean status;
+	private String status;
 
 	public int getSeq() {
 		return seq;
@@ -55,11 +55,11 @@ public class BoardVO {
 		this.img = img;
 	}
 
-	public Date getReldate() {
+	public String getReldate() {
 		return reldate;
 	}
 
-	public void setReldate(Date reldate) {
+	public void setReldate(String reldate) {
 		this.reldate = reldate;
 	}
 
@@ -95,11 +95,11 @@ public class BoardVO {
 		this.regdate = regdate;
 	}
 
-	public boolean isStatus() {
+	public String getStatus() {
 		return status;
 	}
 
-	public void setStatus(boolean status) {
+	public void setStatus(String status) {
 		this.status = status;
 	}
 }
